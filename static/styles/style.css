@@ -73,7 +73,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20%;
+    padding: 10%;
     height: auto;
     width: auto;
     background-image: url('../images/background.jpeg'); /* Path to your background image */
@@ -89,20 +89,20 @@ body {
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
-    height: auto;
+    height: 100%;
+    width: 110%;
     background-color:rgba(0, 0, 0, 0.67);
     padding-top: 5%;
+    padding-left: 3%;
     padding-bottom: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.87);
-    width: auto;
-    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.87);    
 }
 
 .pillbox img {
-    max-width: 60%; /* Icon size */
-    max-height: 120px;
+    max-width: 70%; /* Icon size */
+    height: 120px;
     object-fit: cover;
     padding-left: 2%;
     border-radius: 5%; /* Makes the image circular */
@@ -111,9 +111,9 @@ body {
 .photo-title {
     color: #ffffff;
     align-items: center;
-    font-size: 4vw; /* This will change based on the viewport width */
     white-space: nowrap; /* Prevents text from wrapping */
     font-family: 'Bebas Neue'; /* Set to Montserrat */
-    padding-left: 2%;
+    font-size: 4vw;
+    padding-left: 4%;
 }
 
