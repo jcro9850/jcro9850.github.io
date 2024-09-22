@@ -89,20 +89,20 @@ body {
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
-    max-height: 100px;
+    height: auto;
     background-color:rgba(0, 0, 0, 0.67);
     padding-top: 5%;
     padding-bottom: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.87);
-    width: 100%;
+    width: auto;
     max-width: 600px;
 }
 
 .pillbox img {
     max-width: 60%; /* Icon size */
-    max-height: 180px;
+    max-height: 120px;
     object-fit: cover;
     padding-left: 2%;
     border-radius: 5%; /* Makes the image circular */
@@ -111,7 +111,7 @@ body {
 .photo-title {
     color: #ffffff;
     align-items: center;
-    font-size: 5vw; /* This will change based on the viewport width */
+    font-size: 4vw; /* This will change based on the viewport width */
     white-space: nowrap; /* Prevents text from wrapping */
     font-family: 'Bebas Neue'; /* Set to Montserrat */
     padding-left: 2%;
