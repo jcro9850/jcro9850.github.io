@@ -48,25 +48,6 @@ body {
     display: block; /* Prevents space below the image */
 }
 
-.banner-title, .banner-subtitle {
-    position: absolute; /* Position them over the image */
-    transform: translateY(-500%); /* Adjust for width of the element */
-    color: rgb(255, 0, 0); /* Change text color as needed */
-    text-align: center; /* Center text */
-    white-space: nowrap; /* Prevents text from wrapping */
-}
-
-.banner-title {
-    font-size: 8vw; /* Responsive font size */
-    font-family: 'Bebas Neue'; /* Set to Montserrat */
-    display: none;
-}
-
-.banner-subtitle {
-    top: 5%; /* Adjust vertical position as needed */
-    font-size: 5vw; /* Responsive font size */
-    display: none;
-}
 
 .pillboxes-container {
     display: flex;
