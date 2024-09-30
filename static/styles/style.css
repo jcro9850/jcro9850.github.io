@@ -74,7 +74,6 @@ body {
     min-width: 250px;
     background-color:rgba(0, 0, 0, 0.67);
     padding-top: 5%;
-    padding-left: 3%;
     padding-bottom: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -91,8 +90,7 @@ body {
 
 .photo-title {
     color: #ffffff;
-    align-items: center;
-    white-space: nowrap; /* Prevents text from wrapping */
+    align-items: center;  
     font-family: 'Bebas Neue'; /* Set to Montserrat */
     font-size: 5vw;
     padding-left: 6%;
