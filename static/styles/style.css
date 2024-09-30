@@ -68,7 +68,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     height: 100%;
     width: 110%;
     min-width: 250px;
